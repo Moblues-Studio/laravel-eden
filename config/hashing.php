@@ -6,6 +6,14 @@ return [
     |--------------------------------------------------------------------------
     | Default Hash Driver
     |--------------------------------------------------------------------------
+    */
+
+    'rehash_on_login' => false, // Laravel 11 compatibility
+
+    /*
+    |--------------------------------------------------------------------------
+    | Default Hash Driver
+    |--------------------------------------------------------------------------
     |
     | This option controls the default hash driver that will be used to hash
     | passwords for your application. By default, the bcrypt algorithm is
