@@ -11,7 +11,8 @@
         "laravel/passport": "^12.0",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
-        "spatie/laravel-permission": "^6.4"
+        "spatie/laravel-permission": "^6.4",
+        "laravel/pulse": "1.0.*@dev"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
