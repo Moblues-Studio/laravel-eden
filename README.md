@@ -1,35 +1,83 @@
-# vue
+# Laravel Eden
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome to Laravel Eden, an open-source boilerplate designed to kickstart your Laravel projects using the latest Laravel Framework (version 11) integrated with the "Sneat Vuetify" system design for the front end, written in Vue. This project aims to provide a seamless local development environment using Docker, adhering to the best practices of software development, guidelines, and Git conventions. Laravel Eden leverages Laravel Pint for code design, ensuring consistent code formatting and cleanliness across the project.
 
-## Recommended IDE Setup
+## Getting Started
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur).
+These instructions will get your copy of the project up and running on your local machine for development and testing purposes.
 
-## Type Support for `.vue` Imports in TS
+### Prerequisites
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates.
+Before you begin, ensure you have the following tools installed on your system:
 
-However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can run `Volar: Switch TS Plugin on/off` from VSCode command palette.
+- PHP
+- Composer
+- Node.js
+- pnpm (or npm, yarn)
+- Docker
 
-## Customize configuration
+### Installation
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Follow these steps to set up your local development environment:
 
-## Project Setup
+1. **Install Composer Packages**:
+   ```bash
+   composer install
+   ```
 
-```sh
-npm install
-```
+2. **Install Node Packages**:
+   ```bash
+   pnpm install
+   ```
 
-### Compile and Hot-Reload for Development
+3. **Create Environment File**:
+   ```bash
+   cp .env.example .env
+   ```
 
-```sh
-npm run dev
-```
+4. **Create an App Key**:
+   ```bash
+   php artisan key:generate
+   ```
 
-### Type-Check, Compile and Minify for Production
+5. **Run Docker Containers**:
+   ```bash
+   ./vendor/bin/sail up
+   ```
 
-```sh
-npm run build
-```
+6. **Run Database Migrations**:
+   ```bash
+   ./vendor/bin/sail artisan migrate
+   ```
+
+7. **Run Development Server**:
+   ```bash
+   pnpm dev
+   ```
+
+8. **All Done**:
+    Visit http://localhost in your web browser to see the application in action.
+
+## Best Practices & Guidelines
+
+To ensure quality and maintainability, we follow strict coding standards and best practices, including:
+
+- **Git Conventions**: We adhere to a clear Git commit message convention to make our version history easy to navigate.
+- **Code Design**: Laravel Pint is used for automatic code formatting and cleanup, ensuring a consistent code style across the project. It's recommended to configure your IDE to apply these formatting rules automatically.
+
+## Contributing
+
+We welcome contributions to Laravel Eden! Please read our CONTRIBUTING.md file for details on our code of conduct and the process for submitting pull requests to us.
+
+## License
+
+This project is licensed under the MIT License
+
+## Acknowledgments
+
+- Laravel Community for the comprehensive framework.
+- The creators of Sneat Vuetify for the beautiful Vue components.
+- All contributors and supporters of Laravel Eden.
+
+----
+Thank you for choosing Laravel Eden for your next project. Happy coding!
