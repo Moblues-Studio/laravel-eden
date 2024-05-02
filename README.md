@@ -1,12 +1,12 @@
-# Laravel Eden
+# 🌿 Laravel Eden
 
 Welcome to Laravel Eden, an open-source boilerplate designed to kickstart your Laravel projects using the latest Laravel Framework (version 11) integrated with the "Sneat Vuetify" system design for the front end, written in Vue. This project aims to provide a seamless local development environment using Docker, adhering to the best practices of software development, guidelines, and Git conventions. Laravel Eden leverages Laravel Pint for code design, ensuring consistent code formatting and cleanliness across the project.
 
-## Getting Started
+## 🚀 Getting Started
 
 These instructions will get your copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### 📋 Prerequisites
 
 Before you begin, ensure you have the following tools installed on your system:
 
@@ -16,7 +16,7 @@ Before you begin, ensure you have the following tools installed on your system:
 - pnpm (or npm, yarn)
 - Docker
 
-### Installation
+### 🔧 Installation
 
 Follow these steps to set up your local development environment:
 
@@ -58,22 +58,22 @@ Follow these steps to set up your local development environment:
 8. **All Done**:
     Visit http://localhost in your web browser to see the application in action.
 
-## Best Practices & Guidelines
+## 📐 Best Practices & Guidelines
 
 To ensure quality and maintainability, we follow strict coding standards and best practices, including:
 
 - **Git Conventions**: We adhere to a clear Git commit message convention to make our version history easy to navigate.
 - **Code Design**: Laravel Pint is used for automatic code formatting and cleanup, ensuring a consistent code style across the project. It's recommended to configure your IDE to apply these formatting rules automatically.
 
-## Contributing
+## 🤝 Contributing
 
 We welcome contributions to Laravel Eden! Please read our CONTRIBUTING.md file for details on our code of conduct and the process for submitting pull requests to us.
 
-## License
+## 📄 License 
 
 This project is licensed under the MIT License
 
-## Acknowledgments
+## 👏 Acknowledgments
 
 - Laravel Community for the comprehensive framework.
 - The creators of Sneat Vuetify for the beautiful Vue components.
